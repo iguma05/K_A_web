@@ -33,6 +33,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
     
 }
 .page-header__logo {
@@ -74,14 +75,14 @@ body {
     flex-wrap: nowrap;
     
     overflow: scroll;
+    margin:0 15px;
     
     
 }
 
 .content__item {
     padding: 8px 15px;
-    border: 2px solid #B8FFEC;
-    border-radius: 6px; 
+     
     white-space: nowrap;
     
     color: #7E7E82;
@@ -89,18 +90,29 @@ body {
     
     
 }
+.slide-menu div:first-child {
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+}
 .content__text {
-    float: left;
+    
     padding: 10px 15px;
    
 }
 .content__more {
     margin: 10px 15px;
     text-decoration: none;
-    color: #1B1C21;   
+    color: #1B1C21;
+    font-size: 16px;
+    line-height: 24px; 
+    font-weight: 500;  
+}
+.content__more span {
+    color: #41F6D7;
+    vertical-align: middle;
 }
 .content__photo {
-    float: right;
+    
 }
 .content__photo img {
     width: 100%;
@@ -145,7 +157,7 @@ body {
     }
     .page-header__btn {
         margin: 8px;
-        color: white;
+        
     }
 
 
@@ -153,17 +165,24 @@ body {
 
 
     .content__text {
-        flex: 0 0 45%;
-        max-width: 45%;
+        
+        max-width: 312px;
+        font-size: 14px;
+        line-height: 20px;
+        max-height: 160px;
     }
     .content__photo {
-        flex: 0 0 50%;
-        max-width: 47%;
-        padding: 20px 0;
+        
+        max-width: 50%;
+        padding: 25px 0;
+        
     }
-    
+    .content__photo img {
+        border-radius: 5px;
+        
+    }
 }
 
-@media (min-width: 120px) {
+@media (min-width: 1200px) {
 
 } 
