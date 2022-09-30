@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'TT Lakes';
+    max-width: 1120px;
 }
 .container {
     display: flex;
