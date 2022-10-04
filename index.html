@@ -12,37 +12,35 @@
 <body>
     <header>
         <div class="page-header container">
-            <div class="page-header__menu">
+            <button class="btn menu">
                 <img src="/img/icon.svg" alt="Menu">
-            </div>
+            </button>
             <div class="page-header__logo">
-                <img src="/img/LOGO.png" alt="" height="50" width="90">
+                <img src="/img/LOGO.png" alt="">
             </div>
             <div class="page-header__contacts">
-                <div class="page-header__btn">
+                <button class="btn call">
                     <img src="/img/phone.svg" alt="">
-                </div>
-                <div class="page-header__btn">
+                </button>
+                <button class="btn">
                     <span class="material-symbols-outlined">
                         chat
                         </span>
-                </div>
-                <div class="page-header__btn">
+                </button>
+                <button class="btn">
                     <span class="material-symbols-outlined">
                         person
                         </span>
-                </div>
+                </button>
             </div>
             
-            <div class="page-header__check">
-                <i>Оставить заявку</i>
-                <div class="page-header__btn">
+            <div class="page-header__check-status">
+                <button class="btn">
                     <img src="/img/Group.svg" alt="">
-                </div>
-                <i>Статус ремонта</i>
-                <div class="page-header__btn">
+                </button>
+                <button class="btn">
                     <img src="/img/search.svg" alt="">
-                </div>
+                </button>
             </div>
             
             
@@ -50,7 +48,23 @@
     </header>
     <main>
         <div class="content container">
-            <div class="content__title"><h1>Услуги и сервисы</h1></div>
+            <div class="content__title">
+                <h1>Услуги и сервисы</h1>
+                <div class="content__check-status">
+                    <div class="check-status">
+                        <i>Оставить заявку</i>
+                        <button class="btn">
+                            <img src="/img/Group.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="check-status">
+                        <i>Статус ремонта</i>
+                        <button class="btn">
+                            <img src="/img/search.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
             <div class="slide-menu">
                 <div class="content__item">Ремонтируемые бренды</div>
                 <div class="content__item">Ремонтируемые устройства</div>
